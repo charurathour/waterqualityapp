@@ -12,9 +12,9 @@ def water_quality(input_data):
     print(prediction)
     
     if (prediction[0]==0):
-        return 'Water quality is good'
-    else:
         return 'Water quality is bad'
+    else:
+        return 'Water quality is good'
     
 def main():
     st.title('Water Quality Prediction')
